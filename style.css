@@ -59,6 +59,7 @@ header {
 #mission {
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
   background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   display: flex;
   align-items: center;
