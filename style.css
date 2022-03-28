@@ -80,6 +80,7 @@ header {
 #featured {
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
 }
 
 .featured-image {
