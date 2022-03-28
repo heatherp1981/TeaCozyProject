@@ -23,6 +23,11 @@ h4 {
   font-weight: bold;
 }
 
+h5 {
+  font-size: 20;
+  font-weight: bold;
+}
+
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -42,6 +47,7 @@ header {
 
 .nav-bar li {
   list-style: none;
+  padding: 0 10px;
   display: inline-flex;
   justify-content: space-between;
 }
