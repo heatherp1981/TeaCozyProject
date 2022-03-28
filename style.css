@@ -80,11 +80,11 @@ header {
 #featured {
   max-width: 1000px;
   margin: 0 auto;
+  display: inline-flex;
 }
 
 .featured-image {
   margin: 0 10px;
-  display: inline-flex;
 }
 
 .featured-image img {
