@@ -80,7 +80,12 @@ header {
 #featured {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.featured-container {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .featured-image {
