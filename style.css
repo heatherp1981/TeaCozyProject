@@ -109,7 +109,8 @@ header {
 .location-container {
   margin-top: 15px;
   display: flex;
-  justify-items: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 980px;
 }
 
