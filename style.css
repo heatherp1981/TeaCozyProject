@@ -90,6 +90,8 @@ header {
 
 .featured-image {
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .featured-image img {
