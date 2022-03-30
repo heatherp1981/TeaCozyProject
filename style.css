@@ -1,1 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+}
+
+#nav-bar {
+  width: 100%;
+  height: 69px;
+  display: flex;
+  jutify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  postion: fixed;
+  top: 0;
+}
+
+#nav-bar img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-bar ul li {
+  margin: 0 10px;
+}
+
+#nav-bar ul li a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+#mission {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg") contain no-repeat center center;
+  height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-wrapper {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: columnn;
+}
+
+.mission-wrapper h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mission-wrapper h4 {
+  margin-bottom: 10px;
+}
+
+#featured {
+  max-width: 1000px;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#featured h4 {
+  margin-top: 20px;
+}
+
+.featured-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.feature-img-container .imgbox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.feature-img-container img {
+  max-width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+#location {
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg") contain no-repeat center center;
+}
+
+#location h2 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.location-container {
+  max-width: 980;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.location-box {
+  max-width: 300px;
+  height: 300px;
+  padding: 10px 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact {
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  margin: 5px auto;
+}
+
+#contact h5 {
+  margin: 15px auto;
+}
+
+#footer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+  
+  
+  
+  
+
+
+  
+  
