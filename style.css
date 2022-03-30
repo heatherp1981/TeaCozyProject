@@ -109,7 +109,7 @@ header {
 .location-container {
   margin-top: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   width: 980px;
 }
@@ -117,6 +117,7 @@ header {
 .location {
   width: 300px;
   background-color: black;
+  margin: 0 20px;
 }
 
 #contact {
