@@ -46,7 +46,8 @@ body {
 }
 
 #mission {
-  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg") contain no-repeat center center;
+  /* background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg") contain no-repeat center center; */
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   max-width: 1200px;
   margin: 0 auto;
@@ -61,7 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: columnn;
+  flex-direction: column;
 }
 
 .mission-wrapper h2 {
