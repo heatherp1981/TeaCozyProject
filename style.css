@@ -1,13 +1,3 @@
-@media only screen and (max-width: 550px) {
-  #nav-bar {
-    justify-content: center;
-  }
-  
-  #nav-bar ul {
-    margin-right: 0px;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
