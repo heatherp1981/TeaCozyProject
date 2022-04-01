@@ -94,7 +94,7 @@ body {
 
 .featured-img-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
