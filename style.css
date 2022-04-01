@@ -118,7 +118,10 @@ body {
   max-width: 1200px;
   height: 500px;
   margin: 0 auto;
-  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg") cover no-repeat center center;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #location h2 {
@@ -131,6 +134,7 @@ body {
   max-width: 980;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
