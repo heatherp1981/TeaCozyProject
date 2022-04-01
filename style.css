@@ -140,9 +140,11 @@ body {
 }
 
 .location-box {
+  min-width: 300px;
   max-width: 300px;
-  max-height: 300px;
-  padding: 10px 0;
+  min-height: 300px;
+  max-height;
+  padding: 10px 10px;
   background-color: black;
   display: flex;
   justify-content: space-between;
