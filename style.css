@@ -131,12 +131,11 @@ body {
 }
 
 .location-container {
-  max-width: 980;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -150,6 +149,10 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
+}
+
+.location-box h4 {
+  font-weight: normal;
 }
 
 #contact {
@@ -172,4 +175,5 @@ body {
 #footer {
   margin-left: 20px;
   margin-bottom: 20px;
+  text-align: left;
 }
